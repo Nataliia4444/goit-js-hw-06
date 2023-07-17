@@ -8,7 +8,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #ffffff;
   color: #212121;
   line-height: 1.5;
 }
@@ -21,4 +21,11 @@ input {
 button {
   padding: 8px 12px;
   cursor: pointer;
+}
+.gallery{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+ 
 }
