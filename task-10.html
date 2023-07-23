@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task 10 (optional)</title>
-    <link rel="stylesheet" href="css/common.css" />
-  </head>
-  <body>
-    <p><a href="index.html">Go back</a></p>
+<html lang="en">
 
-    <div id="controls">
-      <input type="number" min="1" max="100" step="1" class ="input"/>
-      <button type="button" data-create>Create</button>
-      <button type="button" data-destroy>Destroy</button>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoIT87</title>
+  <link rel="stylesheet" href="css/common.css" />
+</head>
 
-    <div id="boxes"></div>
+<body>
+  <div class="container">
+    <h2 class="title">Скільки коштує мясо на шашлики?</h2>
+    <form action="#" class="form" id="form">
+      <label for="price">Ціна грн</label>
+      <input type="text" id="price" name="price" value="50" />
+      <label for="quantity">Кількість<span class="amount" id="amount">1</span>кг
+      </label>
+      <input type="range" id="quantity" name="quantity" value="1" min="1" , max="20" />
+    </form>
+    <p class="text-right total" id="total"></p>
+  </div>
+  <script src="/js/task-10.js"></script>
+</body>
 
-    <script src="js/task-10.js" type="module"></script>
-  </body>
 </html>
