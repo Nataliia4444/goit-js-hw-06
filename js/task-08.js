@@ -13,5 +13,6 @@ function onSubmit(event) {
       password,
     };
     console.log(data);
+    form.reset();
   }
 }
